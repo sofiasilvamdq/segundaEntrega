@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {color: #F183BB; 
+font-family: 'Euphoria Script', cursive; 
+text-align: center;
+font-size: 70px; 
+font-weight: bold; }
+
+h2 {color: #F183BB;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 50px; 
+    font-weight: bold;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:#acecfb;
+    z-index: 2;
+    height: 10rem;
+}
+
+   .ancla {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F183BB;
+    }
+
+ 
+
+body {color: #F183BB;
+    background-color:#BCE4D3 ;
+    background-image: url(../Imag/imagenfondochocoagua.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/*li {list-style-type: none;
+}
+*/
+a { 
+    color: #b545e9; 
+    font-size: 18px;
+}
+
+#footer { color: #b545e9;
+}
+
+.facebookIcono{
+    width: 40px;
+}
+
+.instagramIcono{
+    width: 40px;
+}
+
+.facebookIconoContacto{
+    width: 20px;
+}
+
+.instagramIconoContacto{
+    width: 20px;
+}
+/* BOX DE PRODUCTOS*/
+
+.centrado {
+    background: rgba(171, 236, 251,0.4) ;
+ display:flex;
+align-self: center;
+border: 1px solid;
+}
+
+.tortaPiñataTresPisos {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+} 
+
+.smashFlower {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.tabletasChocolate {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.bombones {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.bombasDeChocolateCaliente{
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.smashHeart {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+/* IMAGENES */
+
+.encabezado {
+    width: 150px;
+}
+    
+.imagenDeTortaPiñata {
+    width: 300px;
+    height: 300px;
+}
+
+.imagenDeTortaPiñataTresPisos {
+    width: 300px;
+    height: 300px
+}
+
+.imagenChocoFlor{
+    width: 300px;
+    height: 300px
+}
+
+
+.imagenChocoTableta{
+    width: 300px;
+    height: 300px
+}
+
+.imagenBombones {
+    width: 300px;
+    height: 300px
+}
+
+
+.imagenBombasDeChocoCaliente{
+    width: 300px;
+    height: 300px
+}
+
+.imagenCoraChoco{
+    width: 300px;
+    height: 300px
+}
+
+.enlacesDePaginaPrincipal {
+    background-color: #F183BB;
+    border: 2px black solid;
+    width: 100%;
+}
+
+.inicioPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid;
+    display: inline-block;
+    margin: 10px;
+    }
+.productoPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid;
+    display: inline-block;
+    margin: 10px;
+}
+
+.preguntasFrecuentesPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid;
+    display: inline-block;
+    margin: 10px;
+}
+.quienesSomosPagPrincipal{
+background-color:#FBC2FF;
+color: #b545e9;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+}
+
+.contactoPagPrincipal{
+background-color:#FBC2FF;
+color: #b545e9;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+}
+
+/*NAVEGADORES*/
+
+.navegadores {
+background-color: #febedf;
+    border: 2px black solid;
+    width: 100%;
+}
+
+.facebook {
+background-color:#FBC2FF;
+color: #ff67dc;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+font-size:10px;
+}
+
+.instagram {
+background-color:#FBC2FF;
+color:#ff67dc ;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+font-size: 10px;
+}
+
+.contenedorPreguntas {
+    background: rgba(171, 236, 251,0.4) ;
+    display: flex ;
+    flex-direction: column;
+    margin:15px; 
+
+   border: 1px solid;
+   text-align: center;
+}
